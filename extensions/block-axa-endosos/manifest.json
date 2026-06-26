@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Ulaa Block - AXA Endosos",
+  "version": "1.0.0",
+  "description": "Blocks the axa_endosos.js module (and its endpoints) inside portal.axa.com.mx without blocking the rest of the portal.",
+  "permissions": ["declarativeNetRequest"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

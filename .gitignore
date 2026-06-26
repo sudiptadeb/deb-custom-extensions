@@ -1,0 +1,10 @@
+# Persisted signing keys and runtime state. Keep these OUT of git, but back them
+# up separately: losing a key changes the extension ID and breaks force-install.
+/data/
+
+# Built binaries
+/deb-custom-extensions
+/dist/
+
+# Local CRX artifacts, if any are exported for inspection
+*.crx
